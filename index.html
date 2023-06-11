@@ -1,61 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Import Font Awesome -->
-    <link rel="stylesheet" href="style.css" />
-    <title>Foresite</title>
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <div class="logo">
-          <img src="./images/logo (1).svg" alt="logo" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--import font-awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <!--import google-fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <!-- Import css -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Foresite</title>
+</head>
+
+<body>
+  <!-- header section -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./images/logo (1).svg" alt="logo" />
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--landing-->
+  <section class="landing">
+    <div class="landing-content">
+      <h1>IT services for the digital transformation</h1>
+      <p>At Foresite, we specialize in delivering innovative software solutions, mobile apps, and web development
+        services tailored to your business needs. Our mission is to empower you through cutting-edge technology and
+        exceptional user experiences.
+        With a team of skilled professionals, we are committed to driving your digital transformation. We understand
+        that every business is unique, and we strive to create customized solutions that optimize your operations,
+        enhance customer engagement, and unlock new opportunities for growth.
+        Whether you're looking to streamline your processes, expand your mobile presence, or establish a compelling
+        online platform, we're here to help. Our expertise, experience, and client-centric approach ensure that we align
+        our solutions with your vision and goals.
+        Partner with us to leverage the power of technology and take your business to new heights. Together, we'll
+        navigate the digital landscape, turning challenges into opportunities and driving your success.
+
+        Welcome to Foresite. Let's embark on a transformative journey together!</p>
+      <div class="icons">
+        <a href="#"><i class="fas fa-cloud"></i> </a>
+        <a href="#"><i class="fas fa-network-wired"></i></a>
+        <a href="#"><i class="fas fa-cog"></i></a>
+        <a href="#"><i class="fas fa-microchip"></i></a>
+        <a href="#"><i class="fas fa-lightbulb"></i></a>
+      </div>
+    </div>
+  </section>
+  <!--services-->
+  <section id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service">
+          <i class="fas fa-laptop"></i>
+          <h3>Web Development</h3>
+          <p>A professional and responsive website is critical for establishing a strong online presence. Our web
+            development services encompass everything from creating modern and visually appealing websites to developing
+            complex web applications. Using the latest web technologies, we build websites that are not only
+            aesthetically pleasing but also highly functional, secure, and optimized for performance across devices and
+            browsers.</p>
         </div>
-        <ul>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section class="landing">
-      <div class="landing-content">
-        <h1>we open the source</h1>
-        <p>IT services for the digital transformation.</p>
-        <div class="icons">
-          <a href="#"><i class="fab fa-facebook-f"></i> </a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
+        <div class="service">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Mobile App Development</h3>
+          <p>In the mobile-first era, having a strong mobile presence is essential for businesses to reach and engage
+            with their customers effectively. Our mobile app development team specializes in creating intuitive,
+            user-friendly, and feature-rich mobile applications for iOS and Android platforms. From concept to
+            deployment, we ensure seamless functionality, stunning designs, and seamless integration with back-end
+            systems to deliver outstanding mobile experiences.</p>
+        </div>
+        <div class="service">
+          <i class="fas fa-code"></i>
+          <h3>Software Development</h3>
+          <p>We offer comprehensive software development services, leveraging the latest technologies and best practices
+            to build robust and scalable software solutions. Whether you need a custom software application, enterprise
+            software, or software integration services, our experts will work closely with you to understand your
+            business needs and develop tailored solutions that optimize your operations and deliver tangible results.
+          </p>
         </div>
       </div>
-    </section>
-    <section id="about" class="about">
-      <div class="about-contenet">
-        <h2>Abouts Us</h2>
-        <p>
-          Foresite Is a professional website design company that has been
-          operating for over five years. Our company acts as a support to
-          several clients in terms of maintaining, designing, and programming
-          their websites or web applications. Our company offers services that
-          are second to none and are always of excelient quality. This is
-          confirmed through the 5000 sastified clients the company has serviced
-          operation.
-        </p>
+    </div>
+  </section>
+  <!--projects-->
+  <section id="projects">
+    <div class="container">
+      <h2>Our Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <img src="./images/lab.jpg" alt="lab">
+          <h3>Laboratory information system</h3>
+          <p>Laboratory Information Systems (LIS) play a critical role in modern healthcare settings by facilitating the
+            management and integration of laboratory processes and data. These systems streamline laboratory workflows,
+            enhance communication, and improve the overall efficiency and accuracy of laboratory operations. In this
+            article, we will explore the key features, benefits, and impact of Laboratory Information Systems in
+            healthcare environments.</p>
+        </div>
+        <div class="project">
+          <img src="./images/lab3.jpg" alt="research">
+          <h3>Reserch Registry</h3>
+          <p>Research registries serve as valuable repositories for collecting and organizing information about research
+            studies and participants. They play a crucial role in advancing scientific knowledge, facilitating
+            collaboration, and promoting transparency in the research community. In this article, we will explore the
+            significance of research registries and their impact on the research landscape..</p>
+        </div>
+        <div class="project">
+          <img src="images/patient2.jpg" alt="PIS">
+          <h3>Patient information system</h3>
+          <p>Patient Information Systems (PIS) play a crucial role in modern healthcare by digitizing and organizing
+            patient data, facilitating efficient healthcare delivery, and enhancing the overall quality of patient care.
+            In this article, we will explore the significance of Patient Information Systems and their impact on
+            healthcare organizations and patient outcomes.</p>
+        </div>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+  <!--about section-->
+  <section id="about" class="about">
+    <div class="about-contenet">
+      <h2>Abouts Us</h2>
+      <p>
+        At Foresite, we are a leading technology company specializing in software development, mobile app
+        development, and web development. Our mission is to empower businesses with innovative and tailored digital
+        solutions that drive growth, enhance efficiency, and deliver exceptional user experiences.
+        With a team of highly skilled professionals, we are committed to delivering cutting-edge technology solutions
+        that align with our clients' unique goals and requirements. We believe in the power of technology to transform
+        businesses and create a competitive advantage in today's digital landscape.
+      </p>
+    </div>
+  </section>
+  <!--contact section-->
+  <section id="contact">
+    <div class="container">
+      <h2>Get in touch for a free consultation and Proposal</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send </button>
+      </form>
+    </div>
+  </section>
+  <!--team section-->
+  <section id="team">
+    <div class="container">
+      <h2> Meet Our Team</h2>
+      <div class="team-members">
+        <div class="team-member">
+          <img src="./images/pexels-djordje.jpg" alt="founder">
+          <h3>Mesh Wachii</h3>
+          <p>Founder</p>
+        </div>
+        <div class="team-member">
+          <img src="./images/pexels christina.jpg" alt="co-founder">
+          <h3>Beatrice Luechinger</h3>
+          <p>Co-Founder</p>
+        </div>
+        <div class="team-member">
+          <img src="./images/ Beard style.jpeg" alt="sofware-developer">
+          <h3>Joseph Gachibi</h3>
+          <p>Lead Developer</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--newsletter-->
+  <section id="newsletter">
+    <div class="container">
+      <h2>Subscribe to our Newsletter</h2>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+  <!--footer section-->
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Tech Website. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="quick-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

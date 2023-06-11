@@ -1,14 +1,13 @@
-*{
+  body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  body {
-    font-family: 'Roboto', sans-serif;
-  }
   .fa{
     margin-right: 5px;
   }
+  /* header section*/
   header {
     background-color: #333;
     color: #fff;
@@ -35,14 +34,26 @@
     text-decoration: none;
     text-transform: uppercase;
   }
+  nav ul li a:hover{
+    text-decoration: underline;
+  }
+  /* landing section*/
   .landing {
-    background-color: #f2f2f2;
+    background-image: url(images/back2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     padding: 100px;
     text-align: center;
   }
   .landing-content {
     max-width: 800px;
     margin: 0 auto;
+  }
+  .landing p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 10px;
   }
   .icons {
     margin-top: 20px;
@@ -51,13 +62,163 @@
     color: #333;
     margin-right: 10px;
   }
-  .about {
-    background-color: #fff;
-    padding: 50px;
+  /*services section*/
+  #services {
+    background-color: #f2f2f2;
+    padding: 50px 0;
     text-align: center;
   }
-  .about-content {
-    max-width: 800px;
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  /* changes to paragraph */
+  .service p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .service {
+    text-align: center;
+  }
+  
+  .service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    transition: 0.3s ease;
+  }
+  .service i:hover {
+    transform: rotate(360deg);
+  }
+  /* project section */
+  #projects {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .project {
+    text-align: center;
+  }
+  .project p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  /* about section*/
+  #about{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 50px 
+   }
+   .about p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  /* contact section */
+   #contact {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
     margin: 0 auto;
   }
   
+  input, textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #0c2340;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #666;
+  }
+  /* team section */
+  #team {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #team h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .team-members {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  }
+  .team-member{
+    text-align: center;
+    flex: 0 0 calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  .team-member img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  #newsletter {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+  }
+  /* footer section */
+  footer {
+    background-color: #333;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+  }
+  .footer .container p {
+    margin-bottom: 10px;
+  }
+  .social-icons a {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  .quick-links a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .quick-links a:hover {
+    text-decoration: underline;
+  }
+   
+   
